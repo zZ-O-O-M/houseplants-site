@@ -1,0 +1,56 @@
+// Modules
+@import "nullstyle.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "common.scss";
+
+// Pages
+@import "pages/plantsList.scss";
+@import "pages/plant.scss";
+
+
+.user-authorized {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: #fff;
+  margin-right: 15px;
+
+  a {
+    color: #fff;
+  }
+}
+
+.order-button {
+  margin-left: 10px;
+}
+
+
+.navbar-button {
+  margin-left: 20px;
+  margin-right: 10px;
+
+  a {
+    color: #fff;
+    transition: .2s linear;
+  }
+
+  a:hover {
+    color: #8efafa;
+  }
+}
+
+
+.navbar {
+  font-size: 22px;
+}
+
+.order-button__image {
+  height: 38px;
+  width: 38px;
+}
+
+
+.hide {
+  display: none;
+}
+
