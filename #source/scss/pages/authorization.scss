@@ -1,0 +1,24 @@
+$width: 300px;
+$leftIndent: (100% - (250px/$width) * 100%)/4;
+
+.form-block {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.auth-form {
+  width: $width;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 52% - $leftIndent;
+  margin: -125px 0 0 -125px;
+}
+
+.authorization-title{
+  margin-top: 90px;
+}

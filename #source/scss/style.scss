@@ -6,6 +6,7 @@
 // Pages
 @import "pages/plantsList.scss";
 @import "pages/plant.scss";
+@import "pages/authorization.scss";
 
 
 .user-authorized {
@@ -26,7 +27,6 @@
 
 
 .navbar-button {
-  margin-left: 20px;
   margin-right: 10px;
 
   a {
@@ -35,8 +35,13 @@
   }
 
   a:hover {
-    color: #8efafa;
+    border-bottom: 1px;
+    color: #e0e9ff;
   }
+}
+
+.logout-button {
+  margin-left: 20px;
 }
 
 

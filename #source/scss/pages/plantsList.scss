@@ -23,3 +23,12 @@
     width: 150px;
   }
 }
+
+.list-item__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  a {
+    padding: 8px;
+  }
+}
