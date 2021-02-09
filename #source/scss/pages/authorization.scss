@@ -7,7 +7,7 @@ $leftIndent: (100% - (250px/$width) * 100%)/4;
   position: absolute;
   top: 0;
   left: 0;
-  overflow: auto;
+  z-index: -1000;
 }
 
 .auth-form {
@@ -20,5 +20,5 @@ $leftIndent: (100% - (250px/$width) * 100%)/4;
 }
 
 .authorization-title{
-  margin-top: 90px;
+  margin-top: 100px;
 }

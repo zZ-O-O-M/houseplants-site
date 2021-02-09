@@ -1,3 +1,5 @@
+<!--------- Header --------->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,11 +9,54 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js"></script>
-  <title>Авторизация</title>
+  <title>Название растения</title>
 </head>
 <body>
-<h1 class="align-self-center text-center authorization-title">Авторизация</h1>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Список всех растений</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Сделать заказ</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- If user is logged in-->
+  <div class="user-authorized hide">
+    <div class="user-name">
+      Рады вам: "Alex"
+    </div>
+    <div class="order-button">
+      <a class="order-button__link" href="#">
+        <img class="order-button__image" src="images/basket.png" alt="">
+      </a>
+    </div>
+    <div class="navbar-button logout-button">
+      <a href="#">Выход</a>
+    </div>
+  </div>
+
+  <!-- If the user is not logged in -->
+  <div class="navbar-button login-button">
+    <a href="authorization.html">Войти</a>
+  </div>
+</nav>
+
+<!--------- /Header --------->
+
+
+<!--------- Content --------->
+
 <div class="form-block ">
+  <h1 class="align-self-center text-center authorization-title">Авторизация</h1>
   <form class="auth-form">
     <div class="form-group">
       <label for="loginField">Логин</label>
@@ -24,6 +69,8 @@
     <button type="submit" class="btn btn-primary">Войти</button>
   </form>
 </div>
+
+<!--------- /Content --------->
 
 </body>
 </html>
